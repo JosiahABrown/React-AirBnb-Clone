@@ -18,6 +18,18 @@ section {
     padding: 20px;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 140px;
+    padding: 20px;
+    box-shadow: 0px -2.9825px 7.4564px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
 .gray {
     color: #918e9b;
 }
@@ -54,6 +66,7 @@ section {
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
+    justify-content: center;
 }
 
 .card {
