@@ -22,7 +22,9 @@ export default function App() {
     <div>
       <Navbar />
       <HeroComponent />
-      {cards}
+      <section className="cards-list">
+        {cards}
+      </section>
     </div>
   )
 }
